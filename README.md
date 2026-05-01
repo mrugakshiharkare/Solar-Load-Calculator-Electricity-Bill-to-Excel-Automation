@@ -11,7 +11,7 @@ I developed an end-to-end automation tool using Python and Streamlit that uses C
 
 **Tools Used:**
 - **Streamlit**: For a clean, professional web interface.
-- **Google Gemini 1.5 Flash**: For high-speed OCR and structured data extraction.
+- **Google Gemini 2.5 Flash**: For high-speed OCR and structured data extraction.
 - **Openpyxl & Pandas**: To handle precise Excel cell mapping and data management.
 - **Python-dotenv**: To securely manage API credentials.
 
