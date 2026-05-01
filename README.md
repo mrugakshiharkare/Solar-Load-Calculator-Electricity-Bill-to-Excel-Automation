@@ -1,5 +1,4 @@
 # ⚡ Energybae: Solar Load Calculator & Bill Automator
-### AI Intern Practical Task Submission
 
 This project automates the manual process of analyzing electricity bills to determine solar system sizing. It replaces a 15–30 minute manual entry task with a high-speed AI workflow that extracts data from MSEDCL bills and populates the official Energybae Excel template.
 
@@ -7,7 +6,17 @@ This project automates the manual process of analyzing electricity bills to dete
 
 ## 📄 1. Project Brief
 **What I Built:**
-I developed an end-to-end automation tool using Python and Streamlit that uses Computer Vision (Gemini 1.5 Flash) to "read" electricity bills. The system identifies key parameters like Consumer Name, Sanctioned Load, and 12-month usage history, then programmatically maps them into the provided Excel template while preserving existing formulas.
+I developed an end-to-end automation tool using Python and Streamlit that uses Computer Vision (Gemini 2.5 Flash) to "read" electricity bills. The system identifies key parameters like Consumer Name, Sanctioned Load, and 12-month usage history, then programmatically maps them into the provided Excel template while preserving existing formulas.
+
+---
+
+## 🔒 2. Security & Data Privacy
+To protect customer privacy and follow industry best practices:
+- **Sensitive Data**: All sample electricity bills used during the development and testing phase have been excluded from this public repository.
+- **Credential Safety**: API keys are managed via a `.env` file, which is explicitly ignored by Git to prevent accidental exposure.
+- **Output Validation**: The system was successfully validated using the MSEDCL samples provided in the task brief, and the generated Excel report is included as proof of functionality.
+
+---
 
 **Tools Used:**
 - **Streamlit**: For a clean, professional web interface.
