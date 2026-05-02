@@ -12,9 +12,9 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 st.set_page_config(page_title="Energybae AI", page_icon="⚡", layout="wide")
 
-# 2. The Header Section (Matching your image)
+# 2. The Header Section 
 try:
-    # This displays the main banner/logo layout from your image
+
     banner = Image.open("energybae_banner.png") 
     st.image(banner, use_container_width=True)
 except:
