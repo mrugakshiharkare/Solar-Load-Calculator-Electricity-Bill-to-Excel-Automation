@@ -59,6 +59,5 @@ streamlit run app.py
 ```
 ---
 ## 4. Working demo
-## 📺 Working Demo
 You can watch the full walkthrough of the Solar Load Calculator here:
 [Click to Watch the Demo Video](https://drive.google.com/file/d/1DtgaO1UXbcEsuNz-F--ng-CBmt4JMFM2/view?usp=drive_link)
