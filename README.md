@@ -1,4 +1,4 @@
-# ⚡ Energybae: Solar Load Calculator & Bill Automator
+# ⚡Solar Load Calculator & Bill Automator
 
 This project automates the manual process of analyzing electricity bills to determine solar system sizing. It replaces a 15–30 minute manual entry task with a high-speed AI workflow that extracts data from MSEDCL bills and populates the official Energybae Excel template.
 
